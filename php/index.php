@@ -4,4 +4,4 @@
         http_response_code(500);
     }
 
-    echo file_get_contents('./config');
+    echo file_get_contents('./config.prod');
